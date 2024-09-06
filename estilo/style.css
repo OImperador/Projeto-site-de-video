@@ -29,7 +29,7 @@ header > h1 {
    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
    font-family: var(--fonte-padrao);
    padding: 10px;
-   font-size: 50px;
+   font-size: 60px;
 }
 
 nav {
@@ -38,11 +38,12 @@ nav {
    border-radius: 2px 2px 2px 2px;
    text-align: center;
 }
+
 nav > a {
    color: white;
    text-decoration: none;
    padding: 10px;
-   font-size: 17px;
+   font-size: 20px;
    font-weight: bolder;
    transition-duration: .3s;
 }
@@ -58,6 +59,25 @@ main > section > h2 {
   background-image: linear-gradient(to right, var(--cor2), transparent);
   margin: 5px 0px;
   padding: 10px;
+  font-size: 30px;
+}
+
+.lancamento-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: center;
+}
+
+.lancamento-container img {
+   width: 100%;
+   height: auto;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lancamento-container img:hover {
+   transform: scale(1.1);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .poster-container {
@@ -68,7 +88,7 @@ main > section > h2 {
 }
 
 .poster-container img {
-   width: 150px; 
+   width: 100%; 
    height: auto; 
    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
@@ -78,6 +98,7 @@ main > section > h2 {
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
+/* Outras regras já existentes */
 
 .series-container {
    display: flex;
@@ -87,7 +108,7 @@ main > section > h2 {
 }
 
 .series-container img {
-   width: 150px;
+   width: 100%;
    height: auto;
    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

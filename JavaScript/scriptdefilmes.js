@@ -24,7 +24,6 @@ function gerarPosters() {
     imgElement.classList.add('poster');
 
     linkElement.appendChild(imgElement);
-
     container.appendChild(linkElement);
     });
 }
