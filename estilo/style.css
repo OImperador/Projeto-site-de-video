@@ -20,6 +20,7 @@ body {
 
 header {
    background-image: linear-gradient(to bottom, #0F0606,#200B0B,#2F0000);
+   background-image: url("imagens/logodomatchaflix");
    min-height: 50px;
    text-align: center;
 }
@@ -77,7 +78,6 @@ main > section > h2 {
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
-/* Outras regras já existentes */
 
 .series-container {
    display: flex;
