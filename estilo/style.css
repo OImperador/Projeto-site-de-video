@@ -21,6 +21,8 @@ body {
 header {
    background-image: linear-gradient(to bottom, #0F0606,#200B0B,#2F0000);
    background-image: url("imagens/logodomatchaflix");
+   background-size: 300px 300px;
+   background-repeat: no-repeat;
    min-height: 50px;
    text-align: center;
 }
