@@ -20,7 +20,7 @@ function gerarPosters() {
 
     const imgElement = document.createElement('img')
     imgElement.src = filme.poster;
-    imgElement.alt = `Poster de ${filme.titulo}`;
+    imgElement.alt = `${filme.titulo}`;
     imgElement.classList.add('poster');
 
     linkElement.appendChild(imgElement);
