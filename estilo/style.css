@@ -63,10 +63,11 @@ main > section > h2 {
 }
 
 .lancamento-container {
-   display: flex;
-   flex-wrap: wrap;
+   display: inline-flex;
+   flex-wrap: nowrap;
    gap: 10px;
-   justify-content: center;
+   justify-content: left;
+   margin-left: 5px;
 }
 
 .lancamento-container img {
@@ -81,10 +82,11 @@ main > section > h2 {
 }
 
 .poster-container {
-   display: flex;
-   flex-wrap: wrap; 
+   display: inline-flex;
+   flex-wrap: nowrap; 
    gap: 10px; 
-   justify-content: center; 
+   justify-content: left; 
+   margin-left: 5px;
 }
 
 .poster-container img {
@@ -98,13 +100,13 @@ main > section > h2 {
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
-/* Outras regras já existentes */
 
 .series-container {
-   display: flex;
-   flex-wrap: wrap;
+   display: inline-flex;
+   flex-wrap: nowrap;
    gap: 10px;
-   justify-content: center;
+   justify-content: left;
+   margin-left: 5px;
 }
 
 .series-container img {
